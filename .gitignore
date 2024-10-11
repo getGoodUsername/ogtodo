@@ -23,3 +23,6 @@ data.json
 
 # Exclude package-lock.json
 **/package-lock.json
+
+# Exclude any vim temp files
+**/.*.swp
