@@ -6,3 +6,31 @@ available in the app when your plugin is enabled.
 If your plugin does not need CSS, delete this file.
 
 */
+
+/*
+source: https://forum.obsidian.md/t/properties-view-css-the-fall-collection/66512
+Still have to figure out how to only use this as a snippet
+for the todo files and not for the whole obsidian session
+*/
+
+/* hide Properties header from frontmatter/yaml properties */
+.metadata-properties-heading {
+    display: none;
+}
+
+/* hide add property button from frontmatter/yaml properties */
+.metadata-container .metadata-add-button {
+    display: none;
+}
+
+/* 
+
+use as template to figure out how make invisible css classes list item
+
+.metadata-container
+.metadata-property[data-property-type="multitext"]
+.metadata-property-value
+.multi-select-pill-remove-button {
+    display: none;
+}
+*/
