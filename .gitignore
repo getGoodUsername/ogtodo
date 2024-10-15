@@ -26,3 +26,6 @@ data.json
 
 # Exclude any vim temp files
 **/.*.swp
+
+# Default example provided by obsidian
+example.ts
