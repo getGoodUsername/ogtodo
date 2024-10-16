@@ -1,7 +1,7 @@
 {
 	"id": "ogtodo",
 	"name": "OGTodo",
-	"version": "0.0.0",
+	"version": "1.0.0",
 	"minAppVersion": "0.15.0",
 	"description": "My todo system",
 	"author": "Osbaldo Gonzalez Jr",
